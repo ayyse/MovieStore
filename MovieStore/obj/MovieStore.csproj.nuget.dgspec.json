@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ayse\\Desktop\\MovieStore\\MovieStore\\MovieStore.csproj": {}
+    "C:\\Users\\ayse\\Documents\\GitHub\\MovieStore\\MovieStore\\MovieStore.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ayse\\Desktop\\MovieStore\\MovieStore\\MovieStore.csproj": {
+    "C:\\Users\\ayse\\Documents\\GitHub\\MovieStore\\MovieStore\\MovieStore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ayse\\Desktop\\MovieStore\\MovieStore\\MovieStore.csproj",
+        "projectUniqueName": "C:\\Users\\ayse\\Documents\\GitHub\\MovieStore\\MovieStore\\MovieStore.csproj",
         "projectName": "MovieStore",
-        "projectPath": "C:\\Users\\ayse\\Desktop\\MovieStore\\MovieStore\\MovieStore.csproj",
+        "projectPath": "C:\\Users\\ayse\\Documents\\GitHub\\MovieStore\\MovieStore\\MovieStore.csproj",
         "packagesPath": "C:\\Users\\ayse\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ayse\\Desktop\\MovieStore\\MovieStore\\obj\\",
+        "outputPath": "C:\\Users\\ayse\\Documents\\GitHub\\MovieStore\\MovieStore\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -45,6 +45,22 @@
           "targetAlias": "net7.0",
           "dependencies": {
             "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[7.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.3, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
               "target": "Package",
               "version": "[7.0.3, )"
             },
