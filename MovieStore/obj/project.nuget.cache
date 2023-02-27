@@ -1,11 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "yMiUMjiIQGCIZCBliSqSjKoa6f+lWuFTUiFk7DQNyCgiqyKtjipQtW0NUKRl3n0a4P9is2hXJqm0eTZcBiQTyQ==",
+  "dgSpecHash": "qrTR99PqB17gKyUpR2PA9mLy3H48Uz2y30f4bWGXXiDGqIsetlwdtlm0QtSxTHL5COpLG9ATxx/kV8/cjRQH9A==",
   "success": true,
   "projectFilePath": "C:\\Users\\ayse\\Documents\\GitHub\\MovieStore\\MovieStore\\MovieStore.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\ayse\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
+    "C:\\Users\\ayse\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",
+    "C:\\Users\\ayse\\.nuget\\packages\\fluentvalidation\\11.5.1\\fluentvalidation.11.5.1.nupkg.sha512",
     "C:\\Users\\ayse\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\ayse\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.3\\microsoft.aspnetcore.openapi.7.0.3.nupkg.sha512",
+    "C:\\Users\\ayse\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\ayse\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.3\\microsoft.entityframeworkcore.7.0.3.nupkg.sha512",
     "C:\\Users\\ayse\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\7.0.3\\microsoft.entityframeworkcore.abstractions.7.0.3.nupkg.sha512",
     "C:\\Users\\ayse\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\7.0.3\\microsoft.entityframeworkcore.analyzers.7.0.3.nupkg.sha512",

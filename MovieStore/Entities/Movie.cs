@@ -13,6 +13,6 @@
         public int DirectorId { get; set; }
         public Director Director { get; set; } // bir filmin bir yönetmeni olur
 
-        public List<Actor>? Actors { get; set; } // bir filmin birden fazla oyuncusu olabilir
+        public ICollection<ActorMovie> ActorMovies { get; set; } // bir filmin birden fazla oyuncusu olabilir
     }
 }

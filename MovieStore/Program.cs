@@ -1,10 +1,12 @@
 using Microsoft.EntityFrameworkCore;
 using MovieStore.DataContext;
+using System.Reflection;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddDbContext<MovieStoreDbContext>(o => o.UseNpgsql(builder.Configuration.GetConnectionString("MovieStorePostgresDB")));
+builder.Services.AddAutoMapper(Assembly.GetExecutingAssembly());
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle

@@ -41,3 +41,6 @@ C:\Users\ayse\Documents\GitHub\MovieStore\MovieStore\obj\Debug\net7.0\refint\Mov
 C:\Users\ayse\Documents\GitHub\MovieStore\MovieStore\obj\Debug\net7.0\MovieStore.pdb
 C:\Users\ayse\Documents\GitHub\MovieStore\MovieStore\obj\Debug\net7.0\MovieStore.genruntimeconfig.cache
 C:\Users\ayse\Documents\GitHub\MovieStore\MovieStore\obj\Debug\net7.0\ref\MovieStore.dll
+C:\Users\ayse\Documents\GitHub\MovieStore\MovieStore\bin\Debug\net7.0\AutoMapper.dll
+C:\Users\ayse\Documents\GitHub\MovieStore\MovieStore\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\ayse\Documents\GitHub\MovieStore\MovieStore\bin\Debug\net7.0\FluentValidation.dll
