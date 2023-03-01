@@ -18,7 +18,8 @@ namespace MovieStore.Application.Commands.Delete
             if (movie is null)
                 throw new InvalidOperationException("Film bulunamadı");
 
-            _context.Movies.Remove(movie);
+            movie.IsDeleted = true;
+            //_context.Movies.Remove(movie);
             _context.SaveChanges();
         }
     }

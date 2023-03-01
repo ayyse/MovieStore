@@ -6,6 +6,7 @@
         public string Name { get; set; }
         public string Price { get; set; }
         public DateTime YearOfConstruction { get; set; }
+        public bool IsDeleted { get; set; } = false; // film silinmek istenirse true olmalı
 
         public int GenreId { get; set; }
         public Genre Genre { get; set; } // bir filmin bir türü olur

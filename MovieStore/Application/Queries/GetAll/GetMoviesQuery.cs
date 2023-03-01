@@ -18,7 +18,7 @@ namespace MovieStore.Application.Queries.GetAll
 
         public List<MoviesViewModel> Handle()
         {
-            var movies = _context.Movies.Include(x => x.Genre).Include(x => x.Director).OrderBy(x => x.Id);
+            var movies = _context.Movies.Where(x => x.IsDeleted == false).Include(x => x.Genre).Include(x => x.Director).OrderBy(x => x.Id);
             var vm = _mapper.Map<List<MoviesViewModel>>(movies);
             return vm;
         }

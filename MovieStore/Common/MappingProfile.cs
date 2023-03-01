@@ -20,7 +20,9 @@ namespace MovieStore.Common
             CreateMap<MoviesViewModel, Movie>().ReverseMap()
                 .ForMember(dest => dest.Genre, opt => opt.MapFrom(src => src.Genre.Title))
                 .ForMember(dest => dest.Director, opt => opt.MapFrom(src => src.Director.Name));
-            CreateMap<MovieDetailViewModel, Movie>().ReverseMap();
+            CreateMap<MovieDetailViewModel, Movie>().ReverseMap()
+                .ForMember(dest => dest.Genre, opt => opt.MapFrom(src => src.Genre.Title))
+                .ForMember(dest => dest.Director, opt => opt.MapFrom(src => src.Director.Name)); 
             CreateMap<Movie, UpdateMovieModel>().ReverseMap();
         }
     }
